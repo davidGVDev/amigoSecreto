@@ -6,7 +6,6 @@ const agregarAmigo = () => {
     return;
   }
   amigos.push(nombre.trim());
-  console.log(amigos);
 
   const list = document.getElementById("listaAmigos");
   list.innerHTML = "";
